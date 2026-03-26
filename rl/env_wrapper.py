@@ -4,7 +4,7 @@ import numpy as np
 from env.thor_env import ThorEnv
 
 class AlfredRLEnv:
-    def __init__(self, thor_env):
+    def __init__(self, thor_env:ThorEnv):
         self.env = thor_env
 
         self.action_space = [
